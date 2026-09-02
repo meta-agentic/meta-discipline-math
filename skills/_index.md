@@ -6,9 +6,10 @@ tags: [os, skills, pack, advanced-math]
 
 Each skill is an *executable discipline*: a method + a standard of rigor + a checkable
 artifact. The first three are the rigor spine; the next nine are domain disciplines that invoke
-the spine (define/prove/cite, then sanity-check) within a branch of mathematics. The last
-three are the empirical-statistics wing: the discipline of designing, analyzing, and
-decomposing real studies, each closing on its own ledger.
+the spine (define/prove/cite, then sanity-check) within a branch of mathematics. After them:
+the empirical-statistics wing (designing, analyzing, and decomposing real studies), the
+validation discipline for data-driven claims, and the graph-drawing discipline for layout —
+each closing on its own ledger.
 
 | Skill | Discipline | Checkable output |
 |-------|------------|------------------|
@@ -27,5 +28,7 @@ decomposing real studies, each closing on its own ledger.
 | [[skills/experimental-design/SKILL\|experimental-design]] | Comparative studies designed before data | design ledger (unit, strata/df, randomization receipt, sizing) |
 | [[skills/statistical-inference/SKILL\|statistical-inference]] | Sample → defensible claim | inference ledger (stratum, assumptions, effect + CI, multiplicity) |
 | [[skills/multivariate-analysis/SKILL\|multivariate-analysis]] | Honest low-rank / correlated structure | decomposition ledger (centering, rank, scaling, boundary scan) |
+| [[skills/scientific-validation/SKILL\|scientific-validation]] | Design-to-inference validation of scientific claims | validation ledger + typed claim graph |
+| [[skills/graph-drawing/SKILL\|graph-drawing]] | Graph layout: convention choice, pipelines, bounds, animation | layout ledger with measured drawing metrics |
 
 Config knobs in `pack.yaml`; profiles in `profiles/` (pure / applied). See `README.md`.
