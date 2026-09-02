@@ -14,6 +14,9 @@
 | `abstract-algebra` | first-party (mova77), authored for this pack | MIT |
 | `complex-analysis` | first-party (mova77), authored for this pack | MIT |
 | `geometry-and-trigonometry` | first-party (mova77), authored for this pack | MIT |
+| `experimental-design` | first-party (mova77), authored for this pack | MIT |
+| `statistical-inference` | first-party (mova77), authored for this pack | MIT |
+| `multivariate-analysis` | first-party (mova77), authored for this pack | MIT |
 
 All content is original and **public-safe by construction** — no instance data (repo
 names, trackers, paths, promoted knowledge). The discipline draws on standard mathematical

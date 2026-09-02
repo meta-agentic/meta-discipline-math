@@ -24,6 +24,9 @@ of rigor* per branch that turns an agent into a competent mathematical practitio
 | [`abstract-algebra`](skills/abstract-algebra/SKILL.md) | Structure identification — recognize group/ring/field/module, verify axioms, use homomorphisms/quotients & classification theorems. | A structure & axiom ledger (axioms checked → consequences unlocked). |
 | [`complex-analysis`](skills/complex-analysis/SKILL.md) | Holomorphic functions — Cauchy–Riemann, contour integration, residues, argument principle, conformal maps. | A contour-evaluation ledger with explicit arc-vanishing (ML/Jordan) justification. |
 | [`geometry-and-trigonometry`](skills/geometry-and-trigonometry/SKILL.md) | Method & frame choice — synthetic/analytic/vector/transformational, trig toolkit, transformation invariants. | An invariant-check ledger (result confirmed by a coordinate-independent invariant + degenerate case). |
+| [`experimental-design`](skills/experimental-design/SKILL.md) | Comparative studies designed before data — experimental units, Fisher's triad, design selection from heterogeneity, error strata, identifiability, a-priori sizing. | A dated design ledger: unit, randomization receipt, stratum/df table, sizing note, "generalizes to" clause. |
+| [`statistical-inference`](skills/statistical-inference/SKILL.md) | From p-value to defensible claim — model mirrors design, distribution-matched likelihoods with dispersion gates, ranked residual diagnostics, estimation beside testing, declared multiplicity, ML/REML hygiene, evidence synthesis. | An inference ledger: every claim with its stratum, assumption checks, effect size + CI, multiplicity control. |
+| [`multivariate-analysis`](skills/multivariate-analysis/SKILL.md) | Honest low-rank structure — centering as estimand, SVD with spectrum shown, predictive rank selection, declared biplot scaling, stability geometry with crossover gate, factor-analytic covariance, structured within-unit correlation. | A decomposition ledger: centering/scaling declared, rank chosen out-of-sample, boundary scan. |
 
 ## The three-part test (why this is a pack)
 
@@ -75,7 +78,7 @@ commit `6c0411c`. Add under `packs:` (the local `meta-os` checkout must be synce
   advanced-math:
     repo: https://github.com/meta-agentic/meta-discipline-math
     ref: main
-    description: "Advanced-mathematics discipline (12 skills): the rigor spine (mathematical-rigor, dimensional-analysis, hypercomplex-and-geometric-algebra) plus per-branch disciplines — calculus-and-analysis, linear-algebra, probability-and-statistics, number-theory, discrete-mathematics, differential-equations, abstract-algebra, complex-analysis, geometry-and-trigonometry. First-party — the quantitative-rigor wedge from pack-strategy."
+    description: "Advanced-mathematics discipline (15 skills): the rigor spine (mathematical-rigor, dimensional-analysis, hypercomplex-and-geometric-algebra), per-branch disciplines — calculus-and-analysis, linear-algebra, probability-and-statistics, number-theory, discrete-mathematics, differential-equations, abstract-algebra, complex-analysis, geometry-and-trigonometry — plus the empirical-statistics wing: experimental-design, statistical-inference, multivariate-analysis. First-party — the quantitative-rigor wedge from pack-strategy."
     provenance: first-party
     license: MIT
     status: planned   # first-party; lands when the pack repo publishes
